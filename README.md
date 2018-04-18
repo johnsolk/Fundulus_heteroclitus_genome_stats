@@ -26,3 +26,6 @@ jupyter notebook
 ```
 
 A web browswer should open with a list of files, including this `.ipynb`.
+
+OSF files:
+* https://osf.io/xwzqj/

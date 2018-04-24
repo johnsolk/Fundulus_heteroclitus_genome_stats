@@ -1,4 +1,7 @@
 # Fundulus_heteroclitus_genome_stats
+
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/ljcohen/Fundulus_heteroclitus_genome_stats/master)
+
 stats and visualizations on differences between NCBI and EvidentialGene gene models
 
 To use this [Jupyter notebook](http://jupyter.readthedocs.io/en/latest/install.html):

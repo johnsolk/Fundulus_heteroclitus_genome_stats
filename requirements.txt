@@ -1,2 +1,2 @@
 pandas
-dammit==1.0rc0
+dammit==1.0rc2

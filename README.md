@@ -43,3 +43,11 @@ Click on `Fundulus_heteroclitus_genome_stats.ipynb` to run a live version of the
 ![](jupyter_screenshot.png)
 
 This will be your local copy. The file saved on github is preserved. So, go ahead and make some changes! If you delete everything, the copy will still be on github.
+
+To install an `R` kernel for jupyter notebook, try this:
+
+```
+conda install -c r r-irkernel r-essentials
+```
+
+This can sometimes a little bugg-y. As always, copy/paste the exact error message into Google if you get an error.

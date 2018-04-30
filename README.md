@@ -41,3 +41,5 @@ Click on `Fundulus_heteroclitus_genome_stats.ipynb` to run a live version of the
 ![](jupyter_screenshot.png)
 
 This will be your local copy. The file saved on github is preserved. So, go ahead and make some changes! If you delete everything, the copy will still be on github.
+
+To execute a cell, type `Shift-Enter` (press and hold the `Shift` key, then press `Enter`).

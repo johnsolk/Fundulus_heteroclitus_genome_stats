@@ -1,10 +1,12 @@
 # Fundulus_heteroclitus_genome_stats
 
+Stats and visualizations on differences between NCBI and EvidentialGene gene models.
+
 Click here to run the jupyter notebook on an AWS cloud instance:
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/ljcohen/Fundulus_heteroclitus_genome_stats/master)
 
-Stats and visualizations on differences between NCBI and EvidentialGene gene models.
+To execute a cell, type `Shift-Enter` (press and hold the `Shift` key, then press `Enter`).
 
 To run a copy of this [Jupyter notebook](http://jupyter.readthedocs.io/en/latest/install.html)
 ([more info on Jupyter notebooks](http://angus.readthedocs.io/en/2017/Jupyter-Notebook-Notes.html)) on your local computer:
@@ -41,5 +43,3 @@ Click on `Fundulus_heteroclitus_genome_stats.ipynb` to run a live version of the
 ![](jupyter_screenshot.png)
 
 This will be your local copy. The file saved on github is preserved. So, go ahead and make some changes! If you delete everything, the copy will still be on github.
-
-To execute a cell, type `Shift-Enter` (press and hold the `Shift` key, then press `Enter`).

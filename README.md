@@ -15,12 +15,14 @@ To run a copy of this [Jupyter notebook](http://jupyter.readthedocs.io/en/latest
 
 If you're on AWS, or other UNIX machines:
 ```
+cd ~
 wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh && bash miniconda.sh -b -p $HOME/miniconda
 echo 'export PATH="$HOME/miniconda/bin:$PATH"' >> $HOME/.bashrc
 ```
 
 If you're on Mac OS:
 ```
+cd ~
 curl -OL https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
 bash Miniconda3-latest-MacOSX-x86_64.sh
 echo 'export PATH="$HOME/miniconda/bin:$PATH"' >> $HOME/.bashrc

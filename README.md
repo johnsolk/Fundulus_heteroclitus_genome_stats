@@ -1,28 +1,34 @@
 # Fundulus_heteroclitus_genome_stats
 
+Stats and visualizations on differences between NCBI and EvidentialGene gene models.
+
+Click here to run the jupyter notebook on an AWS cloud instance:
+
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/ljcohen/Fundulus_heteroclitus_genome_stats/master)
 
-stats and visualizations on differences between NCBI and EvidentialGene gene models
+To execute a cell, type `Shift-Enter` (press and hold the `Shift` key, then press `Enter`).
 
-To use this [Jupyter notebook](http://jupyter.readthedocs.io/en/latest/install.html)
-([more info on Jupyter notebooks](http://angus.readthedocs.io/en/2017/Jupyter-Notebook-Notes.html)),
+To run a copy of this [Jupyter notebook](http://jupyter.readthedocs.io/en/latest/install.html)
+([more info on Jupyter notebooks](http://angus.readthedocs.io/en/2017/Jupyter-Notebook-Notes.html)) on your local computer:
 
-First, install [Miniconda](https://conda.io/miniconda.html).
+1. Install [Miniconda](https://conda.io/miniconda.html).
 
 If you're on AWS, or other UNIX machines:
 ```
+cd ~
 wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh && bash miniconda.sh -b -p $HOME/miniconda
 echo 'export PATH="$HOME/miniconda/bin:$PATH"' >> $HOME/.bashrc
 ```
 
 If you're on Mac OS:
 ```
+cd ~
 curl -OL https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
 bash Miniconda3-latest-MacOSX-x86_64.sh
 echo 'export PATH="$HOME/miniconda/bin:$PATH"' >> $HOME/.bashrc
 ```
 
-Then run jupyter notebook:
+2. Run jupyter notebook:
 
 ```
 git clone https://github.com/ljcohen/Fundulus_heteroclitus_genome_stats.git
@@ -30,6 +36,20 @@ cd Fundulus_heteroclitus_genome_stats
 jupyter notebook
 ```
 
-A web browswer should open with a list of files. Click on `Fundulus_heteroclitus_genome_stats.ipynb` to run a live version of the notebook. 
+A web browswer should open with a list of files, like this:
 
-This will be your local copy. The file saved on github is preserved. So, go ahead and play, make some changes! If you delete everything, the copy will still be on github.
+![](jupyter_files_screenshot.png)
+
+Click on `Fundulus_heteroclitus_genome_stats.ipynb` to run a live version of the notebook.
+
+![](jupyter_screenshot.png)
+
+This will be your local copy. The file saved on github is preserved. So, go ahead and make some changes! If you delete everything, the copy will still be on github.
+
+To install an `R` kernel for jupyter notebook, try this:
+
+```
+conda install -c r r-irkernel r-essentials
+```
+
+This can sometimes a little bugg-y. As always, copy/paste the exact error message into Google if you get an error.
